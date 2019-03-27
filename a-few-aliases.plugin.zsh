@@ -1,4 +1,4 @@
-alias cht='column -tx -s "%" ~/.cheatsheet | ccat -G Comment="darkblue" -G Punctuation="darkblue"'
+alias cht='column -tx -s "%" ~/oh-my-zsh/custom/plugins/a-few-aliases/a-few-aliases.cheatsheet | ccat -G Comment="darkblue" -G Punctuation="darkblue"'
 
 alias zshconfig="micro ~/.zshrc"
 alias zshrefresh="source ~/.zshrc; printf '\n Updated ZSH Config! \n \n'"
