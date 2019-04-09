@@ -1,38 +1,71 @@
+ %
+- Custon Commands%
+-----------------%---------------------------------
+'zshconfig'      % edit your .zshrc file
+'zshrefresh'     % update to latest .zshrc file
+'lockme'         % lock your Mac                   %//         __              _
+'show-files'     % show all hidden files in Finder %//         \ \  __ _ _   _( )__
+'hide-files'     % hide all hidden files in Finder %//          \ \/ _\ | | | |/ __|
+                 %                                 %//       /\_/ / (_| | |_| |\__ \
+- Git Aliases    %                                 %//       \___/ \__,_|\__, ||___/
+-----------------%---------------------------------%//          ___ _    |___/       _       _               _
+'g+'             % git add all files               %//         / __\ |__   ___  __ _| |_ ___| |__   ___  ___| |_
+'gc'             % git commit                      %//        / /  |  _ \ / _ \/ _\ | __/ __|  _ \ / _ \/ _ \ __|
+'g0'             % git reset                       %//       / /___| | | |  __/ (_| | |_\__ \ | | |  __/  __/ |_
+'g00'            % git reset to master             %//       \____/|_| |_|\___|\__,_|\__|___/_| |_|\___|\___|\__|
+'gfh'            % git fetch
+'gpl'            % git pull
+'gph'            % git push
+'gchx'           % git checkout
+'gclean'         % prune local branches
+                 %
+- Bethel Aliases %
+-----------------%---------------------------------
+'nsa'            % npm start --api=accepted
+'nsc'            % npm start --api=dc
+                 %
+-----------------%---------------------------------
 
-       __              _      %   ______ __                  __         __                 __ 
-      / /____ _ __  __( )_____%  / ____// /_   ___   ____ _ / /_ _____ / /_   ___   ___   / /_
- __  / // __ `// / / /|// ___/% / /    / __ \ / _ \ / __ `// __// ___// __ \ / _ \ / _ \ / __/
-/ /_/ // /_/ // /_/ /  (__  ) %/ /___ / / / //  __// /_/ // /_ (__  )/ / / //  __//  __// /_  
-\____/ \__,_/ \__, /  /____/  %\____//_/ /_/ \___/ \__,_/ \__//____//_/ /_/ \___/ \___/ \__/  
-             /____/           %                                                               
-                                                    
-- Custon Commands             %
-------------------------------%----------------------------------------------------------------
-zshconfig                     %' micro ~/.zshrc '
-ohmyzsh                       %' micro ~/.oh-my-zsh '
-rebuild                       %' rm -rf -v node_modules; yarn '
-lockme                        %' /System/Library/CoreServices/Menu\ '
-                              %' Extras/User.menu/Contents/Resources/CGSession -suspend '
-show-files                    %' defaults write com.apple.finder AppleShowAllFiles YES; '
-                              %' killall Finder /System/Library/CoreServices/Finder.app '
-hide-files                    %' defaults write com.apple.finder AppleShowAllFiles NO; '
-                              %' killall Finder /System/Library/CoreServices/Finder.app '
-                              %   
-- Git Aliases                 %
-------------------------------%----------------------------------------------------------------
-g+                            %' git add . '
-gc                            %' git commit -am '
-g0                            %' git reset --hard '
-g00                           %' git reset --hard origin/master '
-gfh                           %' git fetch '
-gpl                           %' git pull '
-gph                           %' git push '
-gchx                          %' git checkout '
-gclean                        %' git remote update origin --prune '
-                              % 
-- Bethel Aliases              %
-------------------------------%----------------------------------------------------------------
-nsa                           %' npm start --api=accepted '
-nsc                           %' npm start --api=dc '
-                              % 
-                              % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

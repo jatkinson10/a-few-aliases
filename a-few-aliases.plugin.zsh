@@ -1,11 +1,13 @@
-alias cht='column -tx -s "%" ~/oh-my-zsh/custom/plugins/a-few-aliases/a-few-aliases.cheatsheet | ccat -G Comment="darkblue" -G Punctuation="darkblue"'
+alias cht='column -tx -s "%" ~/.oh-my-zsh/custom/plugins/a-few-aliases/a-few-aliases.cheatsheet | ccat -G Comment="green" -G Punctuation="darkblue"'
 
 alias zshconfig="micro ~/.zshrc"
 alias zshrefresh="source ~/.zshrc; printf '\n Updated ZSH Config! \n \n'"
-alias ohmyzsh="micro ~/.oh-my-zsh"
 
-alias rebuild="rm -rf -v node_modules; yarn"
 alias lockme="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# show or hide hidden files
+alias show-files='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hide-files='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
 # Git Aliases
 alias g+="git add ."
@@ -18,10 +20,12 @@ alias gph='git push'
 alias gchx='git checkout'
 alias gclean='git remote update origin --prune'
 
-# show or hide hidden files
-alias show-files='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
-alias hide-files='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-
 # Volunteer Aliases
 alias nsa="npm start --api=accepted"
 alias nsc="npm start --api=dc"
+
+#Key Bindings
+bindkey "[D" backward-word
+bindkey "[C" forward-word
+bindkey "^[a" beginning-of-line
+bindkey "^[e" end-of-line
