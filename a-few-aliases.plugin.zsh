@@ -23,6 +23,7 @@ alias gclean='git remote update origin --prune'
 # Volunteer Aliases
 alias nsa="npm start --api=accepted"
 alias nsc="npm start --api=dc"
+alias nsd="npm start --api=dd"
 
 #Key Bindings
 bindkey "[D" backward-word
