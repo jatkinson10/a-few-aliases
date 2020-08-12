@@ -4,16 +4,16 @@
 'zshconfig'      % Edit your .zshrc file
 'zshrefresh'     % Update to latest .zshrc file
 'clear-dns'      % Clear DNS cache
-'lockme'         % Lock your Mac                   %//         __              _
-'show-files'     % Show all hidden files in Finder %//         \ \  __ _ _   _( )__
-'hide-files'     % Hide all hidden files in Finder %//          \ \/ _\ | | | |/ __|
-                 %                                 %//       /\_/ / (_| | |_| |\__ \
-- Git Aliases    %                                 %//       \___/ \__,_|\__, ||___/
------------------%---------------------------------%//          ___ _    |___/       _       _               _
-'g+'             % git add all files               %//         / __\ |__   ___  __ _| |_ ___| |__   ___  ___| |_
-'gc'             % git commit                      %//        / /  |  _ \ / _ \/ _\ | __/ __|  _ \ / _ \/ _ \ __|
-'g0'             % git reset                       %//       / /___| | | |  __/ (_| | |_\__ \ | | |  __/  __/ |_
-'g00'            % git reset to master             %//       \____/|_| |_|\___|\__,_|\__|___/_| |_|\___|\___|\__|
+'lockme'         % Lock your Mac                   
+'show-files'     % Show all hidden files in Finder 
+'hide-files'     % Hide all hidden files in Finder 
+                 %                               
+- Git Aliases    %                                 
+-----------------%---------------------------------
+'g+'             % git add all files               
+'gc'             % git commit                      
+'g0'             % git reset                       
+'g00'            % git reset to master             
 'gfh'            % git fetch
 'gpl'            % git pull
 'gph'            % git push
