@@ -9,6 +9,9 @@ alias lockme="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resou
 alias show-files='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hide-files='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
+#clear DNS cache
+alias clear-dns='sudo killall -HUP mDNSResponder; sleep 2; echo "Mac DNS cache cleared"'
+
 # Git Aliases
 alias g+="git add ."
 alias gc="git commit -am"

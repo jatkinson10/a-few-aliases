@@ -1,11 +1,12 @@
  %
 - Custon Commands%
 -----------------%---------------------------------
-'zshconfig'      % edit your .zshrc file
-'zshrefresh'     % update to latest .zshrc file
-'lockme'         % lock your Mac                   %//         __              _
-'show-files'     % show all hidden files in Finder %//         \ \  __ _ _   _( )__
-'hide-files'     % hide all hidden files in Finder %//          \ \/ _\ | | | |/ __|
+'zshconfig'      % Edit your .zshrc file
+'zshrefresh'     % Update to latest .zshrc file
+'clear-dns'      % Clear DNS cache
+'lockme'         % Lock your Mac                   %//         __              _
+'show-files'     % Show all hidden files in Finder %//         \ \  __ _ _   _( )__
+'hide-files'     % Hide all hidden files in Finder %//          \ \/ _\ | | | |/ __|
                  %                                 %//       /\_/ / (_| | |_| |\__ \
 - Git Aliases    %                                 %//       \___/ \__,_|\__, ||___/
 -----------------%---------------------------------%//          ___ _    |___/       _       _               _
