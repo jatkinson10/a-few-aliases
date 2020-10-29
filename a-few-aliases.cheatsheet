@@ -17,6 +17,8 @@
 'gfh'            % git fetch
 'gpl'            % git pull
 'gph'            % git push
+'gmr'            % git push -u origin
+'gfph'           % git push -f
 'gchx'           % git checkout
 'gclean'         % prune local branches
                  %
