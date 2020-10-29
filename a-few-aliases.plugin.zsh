@@ -20,6 +20,8 @@ alias g00="git reset --hard origin/master"
 alias gfh='git fetch'
 alias gpl='git pull'
 alias gph='git push'
+alias gmr='git push -u origin'
+alias gfph='git push -f'
 alias gchx='git checkout'
 alias gclean='git remote update origin --prune'
 
