@@ -25,8 +25,12 @@ alias gfph='git push -f'
 alias gchx='git checkout'
 alias gclean='git remote update origin --prune'
 
+#VSF 
+alias vsf-start="npx @vuestorefront/cli init"
+
 #Key Bindings
 bindkey "[D" backward-word
 bindkey "[C" forward-word
 bindkey "^[a" beginning-of-line
 bindkey "^[e" end-of-line
+
