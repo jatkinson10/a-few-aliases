@@ -27,6 +27,7 @@ alias gclean='git remote update origin --prune'
 
 #VSF 
 alias vsf-start="npx @vuestorefront/cli init"
+alias rvsf="rm -rf node_modules && yarn"
 
 #Key Bindings
 bindkey "[D" backward-word

@@ -25,6 +25,7 @@
 - VSF Aliases    %
 -----------------%---------------------------------
 'vsf-start'      % Create a new VSF Project
+'rvsf'			 % Clean yarn and node_modules
                  %
 -----------------%---------------------------------
 
