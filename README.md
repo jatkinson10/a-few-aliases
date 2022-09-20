@@ -4,7 +4,7 @@ Custom plugin to add quick aliases
 ## Install
 ### Oh-my-zsh
 1. Navigate to `~/.oh-my-zsh/custom/plugins`
-2. Clone Repo `git clone https://appsgit.bethel.jw.org/JATKINSON/a-few-aliases.git`
+2. Clone Repo 
 3. Open zsh config `nano ~/.zshrc`
 4. Add `a-few-aliases` to your `plugins=()`
 5. Save and Exit
